@@ -1,0 +1,1 @@
+web gunicorn AsifAI.wsgi:apllication --log-file -
