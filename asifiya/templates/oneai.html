@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>Asif</title>
+
+    <style>
+        .container {
+           margin-left: 70px;
+           margin-top: 10px;
+        }
+        </style>
+
+</head>
+<body>
+
+    <div  class="container">
+    
+    <textarea name="fulltextarea" cols=50 rows=20> {{answer}}</textarea>
+
+    <form action="{% url 'oneai' %}">
+        <textarea name="fulltextarea" cols=50 rows=3></textarea>
+        <br />
+        <input type="submit" value="Get Answer"/>
+    </form>
+    </div>
+</body>
+</html>
